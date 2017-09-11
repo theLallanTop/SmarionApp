@@ -4,6 +4,7 @@ import {
   View
 } from 'react-native';
 import styles from './Style';
+import { ProgressBar } from '../../components';
 export default class Login extends Component {
   render() {
     return (
@@ -18,6 +19,9 @@ export default class Login extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+
+        < ProgressBar />
+
       </View>
     );
   }
